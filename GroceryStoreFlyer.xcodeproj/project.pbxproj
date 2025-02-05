@@ -9,18 +9,20 @@
 /* Begin PBXBuildFile section */
 		84E8A2DE2D515A8E00178CAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8A2D82D515A8E00178CAC /* Preview Assets.xcassets */; };
 		84E8A2DF2D515A8E00178CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E8A2DA2D515A8E00178CAC /* Assets.xcassets */; };
-		84E8A2E02D515A8E00178CAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A2DB2D515A8E00178CAC /* ContentView.swift */; };
+		84E8A2E02D515A8E00178CAC /* DepartmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A2DB2D515A8E00178CAC /* DepartmentsListView.swift */; };
 		84E8A2E12D515A8E00178CAC /* GroceryStoreFlyerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A2DC2D515A8E00178CAC /* GroceryStoreFlyerApp.swift */; };
 		84E8A2E52D515D2200178CAC /* Flyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A2E42D515D1900178CAC /* Flyer.swift */; };
+		84E8A2EB2D53B21500178CAC /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A2EA2D53B21300178CAC /* Detail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84E8A2C72D515A3B00178CAC /* GroceryStoreFlyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStoreFlyer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8A2D82D515A8E00178CAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84E8A2DA2D515A8E00178CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84E8A2DB2D515A8E00178CAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84E8A2DB2D515A8E00178CAC /* DepartmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentsListView.swift; sourceTree = "<group>"; };
 		84E8A2DC2D515A8E00178CAC /* GroceryStoreFlyerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryStoreFlyerApp.swift; sourceTree = "<group>"; };
 		84E8A2E42D515D1900178CAC /* Flyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyer.swift; sourceTree = "<group>"; };
+		84E8A2EA2D53B21300178CAC /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +83,8 @@
 		84E8A2E32D515AB300178CAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84E8A2DB2D515A8E00178CAC /* ContentView.swift */,
+				84E8A2EA2D53B21300178CAC /* Detail.swift */,
+				84E8A2DB2D515A8E00178CAC /* DepartmentsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E8A2E02D515A8E00178CAC /* ContentView.swift in Sources */,
+				84E8A2EB2D53B21500178CAC /* Detail.swift in Sources */,
+				84E8A2E02D515A8E00178CAC /* DepartmentsListView.swift in Sources */,
 				84E8A2E52D515D2200178CAC /* Flyer.swift in Sources */,
 				84E8A2E12D515A8E00178CAC /* GroceryStoreFlyerApp.swift in Sources */,
 			);

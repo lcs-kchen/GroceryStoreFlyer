@@ -7,12 +7,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DepartmentsListView: View {
     var body: some View {
+        NavigationStack {
+            
+            List(thisWeeksFlyer.departments) { currentDeparment in
+                
+                Text(currentDeparment.name)
+                
+            }
+            
+//            List(thisWeeksFlyer.departments) {
+//                currentdepartments in
+//                NavigationLink { } label { }
+//            }
+//            .navigationTitle ("Weekly Flyer")
+        }
        
     }
 }
 
 #Preview {
-    ContentView()
+    DepartmentsListView()
 }
