@@ -13,7 +13,12 @@ struct DepartmentsListView: View {
             
             List(thisWeeksFlyer.departments) { currentDeparment in
                 
-                Text(currentDeparment.name)
+                NavigationLink {
+                    DetailView(departmentToShow: currentDeparment)
+                } label: {
+                    Text(currentDeparment.name)
+                }
+
                 
             }
             
