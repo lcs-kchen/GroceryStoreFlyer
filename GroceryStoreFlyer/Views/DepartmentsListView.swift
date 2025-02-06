@@ -21,12 +21,7 @@ struct DepartmentsListView: View {
 
                 
             }
-            
-//            List(thisWeeksFlyer.departments) {
-//                currentdepartments in
-//                NavigationLink { } label { }
-//            }
-//            .navigationTitle ("Weekly Flyer")
+                     .navigationTitle ("Weekly Flyer")
         }
        
     }

@@ -59,7 +59,11 @@ let thisWeeksFlyer = Flyer(
             ]
         ),
         
-        
+        Department(name: "Deli", items: [
+            FoodItem(name: "Sliced Meats", image: "sliced-meats"),
+            FoodItem(name: "Garlic Sausage Link", image: "sausage"),
+            FoodItem(name: "Turkey Breast", image: "turkey")
+        ])
         
     ]
 )
