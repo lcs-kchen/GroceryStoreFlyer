@@ -16,8 +16,11 @@ struct DetailView: View {
     //Computed
     var body: some View {
         List(departmentToShow.items) { currentFoodItem in
-            Text(currentFoodItem.name)
-            Image(currentFoodItem.image)
+            VStack {
+                Text(currentFoodItem.name)
+                Image(currentFoodItem.image)
+            }
+            
         }
         .navigationTitle(departmentToShow.name)
     }
