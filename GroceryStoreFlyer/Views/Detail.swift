@@ -17,7 +17,10 @@ struct DetailView: View {
     var body: some View {
         List(departmentToShow.items) { currentFoodItem in
             VStack {
-                Text(currentFoodItem.name)
+                HStack {
+                    Text(currentFoodItem.name)
+                    Text(currentFoodItem.price)
+                }
                 Image(currentFoodItem.image)
             }
             
